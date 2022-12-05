@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    border: 1px solid;
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    background-color: rgb(30, 30, 30,100%);
+    color: white;
+    border-bottom: 1px  rgb(30, 30, 30,100%) ;
+ 
+}
+.navbar input{
+    width: 20%;
+    /* height: 20%; */
+    border-radius: 10px;
+    border-bottom: 3px rgb(68,67, 67,100%);
+padding: 5px;
+text-align: center;
+color: black;
+transition: width 0.3s ;
+/* background-color: transparent; */
+/* border: none; */
+}
+.navbar input[type="search"]{
+    outline: none;
+}
+.navbar input[type="search"]:focus{
+    width: 30%;
+
+}
+
+.navbar button{
+    background-color: white ;
+    border-radius: 20px;
+    padding: 3px;
+    font-size: 13px;
+    border: none;
+
+}
+.subnav{
+    /* display: flex; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.subnav .link{
+    text-decoration: none;
+    color:white;
+    
+}
+.pop{
+    background-color: gray;
+    height: 100%;
+    width: 100%;
+}
+.header-pop
+{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction:column;
+    /* justify-content: space-between; */
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    gap: 1rem;
+max-width: 50%;
+height: 50%;
+left: 30%;
+text-align: center;
+padding: 10px;
+z-index: 1;
+/* background-color: black; */
+}
+.header-pop input{
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    /* margin: auto; */
+    
+}
+.header-text{
+    text-align: left;
+}
+.header-pop input[type="text"],[type="password"]{
+    outline: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.end{
+    /* text-align: end; */
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sub-song1{
+    width: 50%;
+    border: 1px solid;
+}
+.sub-song1 audio{
+    width: 50%;
+}
+.display-one{
+    border: 1px solid;
+    width: 25%;
+    display: flexs;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-top: 2%;
+    padding: 2px;
+    background-color: black;
+    color: white;
+    font-size:14px;
+}
+.display-one img{
+    width: 100%;
+    border-radius: 10px;
+
+}
